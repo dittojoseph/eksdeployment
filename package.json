@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "type": "module",
   "description": "Node.js on Docker",
-  "author": "hardik.patel@techifysolutions.com",
+  "author": "dittojoseph007@gmail.com",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
