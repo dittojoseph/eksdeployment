@@ -36,7 +36,7 @@ pipeline{
 				sh 'kubectl get -o yaml deploy/myapp-deployment > deploy.yaml'
              //   sh "sed -i 's/hellonodejs:latest/hellonodejs:eks/g' deploy.yaml"
                 sh 'kubectl apply -f deploy.yaml'
-                sh 'kubectl rollout restart deployment hello-world-nodejs'
+                sh 'kubectl rollout restart deployment myapp-deployment'
 			}
 		}
 	}
