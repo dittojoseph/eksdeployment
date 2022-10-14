@@ -7,7 +7,7 @@ const HOST = '0.0.0.0';
 
 const app = express();
 app.get('/', (req, res) => {
-  res.send('Deployed EKS APP through Jenkins CICD v11')
+  res.send('Deployed EKS APP through Jenkins CICD v2')
 });
 
 app.listen(PORT, HOST);
